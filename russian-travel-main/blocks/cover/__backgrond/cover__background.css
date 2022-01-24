@@ -1,9 +1,0 @@
-.cover__background {
-    grid-column: 1/2;
-    grid-row: 1/3;
-    background-image: url("../../../image/cover-trains.jpg");
-    background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size: cover;
-    background-position: center;
-}
