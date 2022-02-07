@@ -7,18 +7,9 @@
     padding-bottom: 92px;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1024px) {
     .places {
-        gap: 50px;
-        padding-bottom: 64px;
-        padding-top: 64px;
-
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .places {
-        max-width: 100%;
+        max-width: 90.625%;
     }
 }
 
@@ -30,8 +21,11 @@
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 320px) {
     .places {
-        max-width: 90.625%;
+        gap: 50px;
+        padding-bottom: 64px;
+        padding-top: 64px;
+
     }
 }

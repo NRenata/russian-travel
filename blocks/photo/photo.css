@@ -6,16 +6,9 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 319px) {
-    .photo {
-        grid-template-columns: repeat(auto-fit, minmax(248px, 1fr));
-    }
-}
-
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 1279px) {
     .photo {
         max-width: 90%;
-        gap: 10px;
     }
 }
 
@@ -25,8 +18,9 @@
     }
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 320px) {
     .photo {
         max-width: 90%;
+        gap: 10px;
     }
 }

@@ -3,6 +3,7 @@
     grid-template-rows: repeat(2, min-content);
     grid-gap: 32px;
     max-width: 1184px;
+    min-height: 740px;
     margin: 0 auto;
     position: relative;
 }
