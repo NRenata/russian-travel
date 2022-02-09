@@ -1,10 +1,11 @@
 .place__web {
-    align-self: end;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 @media screen and (max-width: 767px) {
     .place__web {
-        margin-left: 15px;
-        max-width: 90%;
+        padding: 0 16px;
     }
 }

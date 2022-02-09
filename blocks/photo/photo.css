@@ -6,21 +6,14 @@
     margin: 0 auto;
 }
 
-@media screen and (max-width: 1279px) {
-    .photo {
-        max-width: 90%;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .photo {
-        max-width: 90%;
+        padding: 88px 24px 0 24px;
     }
 }
 
 @media screen and (max-width: 320px) {
     .photo {
-        max-width: 90%;
-        gap: 10px;
+        padding: 64px 16px 0 16px;
     }
 }

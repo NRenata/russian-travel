@@ -1,25 +1,21 @@
 .cover__title {
-    grid-column: 1;
-    grid-row: 1;
-    z-index: 1;
-    justify-self: center;
-    color: white;
     max-width: 560px;
+    font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    font-weight: 900;
     text-align: center;
+    margin: 0 auto;
+    color: #FFFFFF;
+    position: relative;
 }
 
-@media (max-width: 760px) {
-    .cover__title {
-        font-size: 32px;
-        line-height: 1.09;
-    }
-}
 
-@media (max-width: 425px) {
+@media screen and (max-width: 580px) {
     .cover__title {
         max-width: 250px;
+        padding: 0 16px 0 16px;
+        font-size: 32px;
+        line-height: 35px;
     }
 }
+
