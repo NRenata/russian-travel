@@ -27,8 +27,8 @@
     .place {
         display: flex;
         flex-direction: column;
-        /*grid-template-columns: 0;*/
-        /*gap: 0;*/
+        grid-template-columns: 0;
+        gap: 0;
         row-gap: 32px;
         padding-bottom: 50px;
 
